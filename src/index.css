@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+body{
+    background-color: rgb(5,1,23);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width:1200px){
+  .main{
+    width:auto;
+  }
+  .main-nav{
+    width:auto;
+    margin-left: 50px;
+    
+  }
+}
+@media (max-width:1000px){
+  .main{
+    width: 200px;
+  }
+  .main-nav{
+    width:auto;
+    margin-left: 50px;
+    
+  }
+}
+@media (max-width:720px){
+  .main{
+    width: 600px;
+  }
+}
+@media (max-width:600px){
+.main{
+  width: 500px;
+}
+}
+@media (max-width:500px){
+  .main{
+    width: 400px;
+  }
+}
+@media (max-width:500px){
+  .main{
+    width: 300px;
+  }
+}
+
+@media (max-width:1200px){
+  .titleImg{
+    width: 900px;
+  }
+}
+@media (max-width:850px){
+  .titleImg{
+    width: 700px;
+  }
+}
+@media (max-width:650px){
+  .titleImg{
+    width: 500px;
+  }
+}
+@media (max-width:500px){
+  .titleImg{
+    visibility: hidden;
+  }
+}
