@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="w-300 mx-auto flex justify-between items-center h-15 px-4 main-nav">
         
         <div>
-          <img src="./images/logo.svg" alt="Logo" className="w-35" />
+          <img src="images/logo.svg" alt="Logo" className="w-35" />
         </div>
 
         <div className="md:flex hidden w-150 h-auto text-lg justify-between font-sans">
